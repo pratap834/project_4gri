@@ -1,0 +1,30 @@
+# Core Flask and ML dependencies
+Flask==2.3.3
+numpy==1.24.3
+pandas==1.5.3
+scikit-learn==1.3.0
+tensorflow==2.13.0
+keras==2.13.1
+joblib==1.3.2
+Pillow==10.0.0
+xgboost==1.7.6
+lightgbm==4.0.0
+
+# Clerk Authentication
+clerk-backend-sdk==0.6.0
+python-dotenv==1.0.0
+requests==2.31.0
+PyJWT==2.8.0
+
+# Additional utilities
+Werkzeug==2.3.7
+Jinja2==3.1.2
+
+# FastAPI and MongoDB
+fastapi==0.104.1
+uvicorn==0.24.0
+pymongo==4.6.0
+pydantic==2.5.0
+
+# Gemini AI Integration
+google-generativeai==0.3.2

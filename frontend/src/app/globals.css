@@ -1,0 +1,66 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-green: #2d5016;
+  --light-green: #4a7c59;
+  --accent-orange: #d4691a;
+  --earth-brown: #8b4513;
+  --cream: #f5f5dc;
+  --harvest-gold: #daa520;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, var(--cream) 0%, #e8f5e8 100%);
+  min-height: 100vh;
+}
+
+/* Hide phone number fields in Clerk authentication */
+[data-clerk-field="phoneNumber"],
+[data-testid="phone-number-field"],
+.cl-phoneNumber,
+.cl-phoneNumberField,
+.cl-formFieldPhoneNumber,
+input[name="phoneNumber"],
+input[placeholder*="phone" i],
+input[placeholder*="Phone" i],
+label[for*="phone" i],
+div[class*="phone" i] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Hide any phone-related buttons or links */
+button[data-clerk-field="phoneNumber"],
+button[class*="phone" i],
+a[href*="phone" i] {
+  display: none !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-green);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-green);
+}
