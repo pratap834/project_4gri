@@ -54,7 +54,7 @@ aiohttp==3.11.11
 h11==0.16.0
 
 # ===== AUTHENTICATION =====
-clerk-backend-sdk==2.12.1
+clerk-backend-sdk==1.0.0
 PyJWT==2.8.0
 
 # ===== ENVIRONMENT & CONFIGURATION =====
@@ -160,4 +160,5 @@ markdown2==2.4.10
 #    - Quantum Disease Detection: 8003
 
 #    - Frontend: 3000
+
 
