@@ -31,7 +31,7 @@ xgboost==1.7.6
 lightgbm==4.0.0
 
 # ===== DEEP LEARNING =====
-tensorflow==2.18.0
+tensorflow==2.20.0
 keras==3.8.0
 
 # ===== PYTORCH & QUANTUM COMPUTING =====
@@ -158,4 +158,5 @@ markdown2==2.4.10
 #    - Backend API: 8001
 #    - Disease Detection: 8002
 #    - Quantum Disease Detection: 8003
+
 #    - Frontend: 3000
