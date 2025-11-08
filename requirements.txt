@@ -158,7 +158,20 @@ markdown2==2.4.10
 #    - Backend API: 8001
 #    - Disease Detection: 8002
 #    - Quantum Disease Detection: 8003
-
+#    - Market Rentals: 8004
 #    - Frontend: 3000
-
-
+#
+# 7. Features supported:
+#    ✅ Crop Recommendation (ML)
+#    ✅ Fertilizer Optimization (ML)
+#    ✅ Yield Prediction (ML)
+#    ✅ Disease Detection (CNN - 38+ diseases)
+#    ✅ Quantum Disease Detection (4-qubit & 8-qubit VQC)
+#    ✅ Advanced Disease Detection (Hybrid Classical-Quantum)
+#    ✅ Market Rentals (Equipment rental marketplace)
+#    ✅ Gemini AI Integration (Chatbot & recommendations)
+#    ✅ MongoDB Integration (User profiles, transactions)
+#    ✅ Clerk Authentication
+#    ✅ PDF Report Generation
+#    ✅ Email Notifications
+#    ✅ Cloudinary Image Storage (Equipment photos)
